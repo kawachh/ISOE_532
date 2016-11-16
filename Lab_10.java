@@ -12,7 +12,7 @@ public class Lab10 {
         return s;
     }
     public static void main(String[] args) throws IOException {
-        FileReader f1 = new FileReader("input.c");
+        FileReader f1 = new FileReader("input_10.c");
         BufferedWriter f2 = new BufferedWriter( new FileWriter("output.txt"));
         String text="";
         int temp;
